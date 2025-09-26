@@ -1,0 +1,318 @@
+whoami
+pwd
+ssh-keygen -t ed25519
+pwd
+ls -l
+ls -la
+cd .ssh
+ls -l
+cat id
+cat id_25519.pub
+cat id_ed25519.pub
+pwd
+echo rojocai
+echo $HOME
+ls
+ls -l
+pwd
+mkdir clase4
+ls -l
+cd clase4
+ls -l
+echo linea1
+echo linea1 > archivo1.txt
+cat archivo1.txt
+cat > archivo2.txt
+echo linea1
+echo linea2
+ls -l
+cat *.txt
+cat archivo1.txt >> archivo2.txt
+cat archivo2.txt
+cat archivo1.txt archivo2.txt > archivo3.txt
+ls -l
+cat archivo3.txt
+grep linea1 archivo3.txt
+-c linea1 archivo3.txt
+grep -c linea1 archivo3.txt
+grep -n linea1 archivo3.txt
+grep -v linea1 archivo3.txt
+sudo apt install tree
+snap install tree
+sudo snap install tree
+tree
+mkdir practica 
+ls -l
+cd practic cd ...
+mkdir practica
+cd practica
+touch practica1.txt
+..aaa aaaaa>>>>>
+cp practica1.txt
+cp practica1.txt practica2.txt
+ls -l
+mv practica2.txt /home/vagrant/clase
+mv practica2.txt /home/vagrant/clase4
+vagrant hat
+vagrant halt
+vagrant exit
+exit
+sl -l
+ls -l
+mkdir clase5
+ls -l
+cd clase5
+pwd
+ls -l
+tree 
+mkdir factura pedidos
+tree
+mkdir -p clientes/{facturas, pedidos}
+ls -l
+tree
+rm -r pedidos}
+tree
+rm -r clientes
+mkdir -p clientes/{facturas,pedidos}
+ls -l
+tree
+mkdir -p {clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p contactos/{clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p Lucca_1/contactos/{clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p Lucca_1/contactos/{clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p Lucca_2/{mama/hijo{1..3},papa/hijo{1..3},ahijado
+tree
+rm -r Lucca_2
+tree
+mkdir -p Lucca_2/{mama/hijo{1..3},papa/hijo{1..3},ahijado}}
+tree
+cd ..
+pwd
+whoami
+who
+w
+id
+cat /etc/passwd
+grep -i vagrant /etc/passwd
+cat /etc/shadow
+sudo cat /etc/shadow
+grep -i vagrant /etc/shadow
+sudo grep -i vagrant /etc/shadow
+cat /etc/grow
+cat /etc/group
+grep vagrant /etc/group
+sudo su
+ls -l
+clear
+groupadd Alumnos
+sudo groupadd Alumnos
+cat /etc/group
+useradd -m -s /bin/bash -c "Alumno pepe" -G Alumnos pepe
+sudo useradd -m -s /bin/bash -c "Alumno pepe" -G Alumnos pepe
+cat /etc/passwd
+cat /etc/group
+ls -l /home
+passwd pepe 
+ls -l
+lslss//
+ls     exxxiei
+ls -l /homexitexitexit
+eeeeexxt
+cat /etc/passwd
+sudo passwd pepe
+su - pepe
+sudo usermod -aG sudo pepe
+pwd
+ls -l
+cd repogit
+ls -l
+git clone git@github.com:FranLucca/TP1_AySO_Lucca_Franco.git
+ls -l
+cd TP1_AySO_Lucca_Franco/
+ls -l
+cat /etc/os-release
+grep HOME_URL /etc/os-release
+grep -i Home_ulr /etc/os-release
+ls -l
+grep -i Home_url /etc/os-release
+ls -l
+grep -i Home_url /etc/os-release > datos_url.txt
+ls -l
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls -l
+cat datos_usuario.txt
+git add
+git add .
+git config --global user.email "franco.luccaok@gmail.com"
+git confi --global user.name "FranLucca"
+git config --global user.name "FranLucca"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git push
+grep "model name" proc/cpuinfo | head -n1 >> datos.usuarios.txt
+grep "model name" proc/cpuinfo | head -n1 >> datos_usuarios.txt
+ls -l
+rm datos.usuarios.txt
+rm datos_usuarios.txt
+grep "model name" proc/cpuinfo | head -n1 >> datos_usuario.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+ls -l
+tree
+cat datos_usuario.txt
+git add
+git add .
+git commit -m "feat: Añadiendo informacion de CPU"
+git push
+ls -l
+[200~
+cat <<EOF >> README.md
+Alumno: <Franco Lucca>
+División: <114>
+Turno: <Turno Mañana>
+EOF 
+
+
+
+git clone git@github.com:FranLucca/TP1_AySO_Lucca_Franco.git
+ls -l
+cd TP1_AySO_Lucca_Franco/
+ls -l
+cat README.md
+cat <<EOF>> README.md
+Alumno: <Franco Lucca>
+División: <114>
+Turno: <Turno Mañana>
+EOF 
+
+
+
+
+
+Alumno: Franco Lucca
+Division: 114
+Turno: Turno Mañana
+
+ls -l
+cat READMEm
+cat README.md
+ls -l
+cd TP1_AySO_Lucca_Franco/
+ls -l
+cat <<EOF>> READ.md
+
+
+
+cd TP1_AySO_Lucca_Franco/
+cat <<EOF >> README.md
+Alumno: <Franco Lucca>
+División: <114>
+Turno: <Turno Mañana>
+EOF 
+Alumno: Franco Lucca
+Division: 114
+Turno: Turno Mañana
+EOF
+
+cat README.md
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+mkdir -p {materia1,materia2}/{uni1,uni2,uni3}
+tree
+cd ..
+ls 
+cd TP1_AySO_Lucca_Franco/
+ls -l
+cat README.md
+exit
+ls -l
+ls -l /home
+ls -l /home/pepe
+su -pepe
+su - pepe
+sudo usermod -aG sudo pepe
+su - pepe
+pwd
+chgrp vagrant:vagrant /home/pepe/textopepe.txt
+sudo chgrp vagrant:vagrant /home/pepe/textopepe.txt
+sudo chown vagrant:vagrant /home/pepe/textopepe.txt
+ls -l /home/pepe
+sudo ls -l /home/pepe
+su - pepe
+ls -l
+mkdir clase5
+cd clase5
+ls -l
+tree
+touch practica1.txt
+touch practica2.txt
+ls -l
+chmod 600 practica1
+chmod 600 practica1.txt
+ls -l
+chmod 444 practica2.txt
+ls -l
+echo "linea1" >> practica2.txt
+chmod 644 practica2.txt
+ls -l
+echo "linea1" >> practica2.txt
+cat practica2.txt
+cd ..
+ls -l
+chmod -R 777 clase5/
+ls -l
+cd clase5
+ls -l
+chmod 666 *.txt
+ls -l
+chmod -R 775 clase5/
+exit
+ls -l
+pwd
+ls -l
+mkdir clase6
+ls -l
+cd clase6
+ls -l
+echo ls -l > script1
+ls -l
+cat script1
+bash script1
+echo tree >> script1
+cat script1
+bash script1
+echo pwd >> scipt1
+cat script1
+echo pwd >> script1
+cat script1
+echo whoami >> script1
+cat scipt1
+cat script1
+bash script1
+rm scipt1
+ls -l
+cat script1
+bash script1
+vim script2.sh
+ls -l
+cat script2.sh
+./script2.sh
+chmod 764 script2.sh
+ls -l
+./script2.sh
+ls -l
+tree
+vim script3.sh
+ls -l
+chmod 764 script3.sh
+./script3.sh
+exit
+ls -l
+cd TP1_AySO_Lucca_Franco/
+vim script_dir.sh
+ls -l
+history -a
